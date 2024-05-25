@@ -9,3 +9,12 @@ h1{
     background-clip: content-box;
     margin: 10px;
 }
+h2{
+    text-align: center;
+}
+/* Style in the Input Section */
+label{
+    display: block;
+    margin: 10px;
+    font-size: large;
+}
