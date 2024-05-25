@@ -9,13 +9,16 @@
 <body>
     <!-- Head Section is in this section -->
     <head>
-        <h1>Food Shop</h1>
+        <h1>Fast Food Shop</h1>
     </head>
 
     <!-- Mainly the all the parts will be in this section. -->
     <main>
         <h2>The Form</h2>
         <form>
+            <!-- Setting a field with Radio Type -->
+            <fieldset>
+                <legend>Give your Details</legend>
              <label for="name">Name
             <input id="name" type="text" placeholder="Your Name">
             </label>
@@ -25,8 +28,46 @@
              <label for="name">Email
             <input id="name" type="text" placeholder="Your Email">
             </label>
-            <!-- Setting a field with Radio Type -->
-                      
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose Your Food</legend>
+                <label for="Burger">
+                    <input type="checkbox" name="food" id="Burger"> Burger
+                </label>
+                <label for="Chicken-Fry">
+                    <input type="checkbox" name="food" id="Chicken-Fry"> Chicken-Fry
+                </label>
+                <label for="French-Fry">
+                    <input type="checkbox" name="food" id="French-Fry"> French-Fry
+                </label>
+                <label for="Pasta">
+                    <input type="checkbox" name="food" id="Pasta"> Pasta
+                </label>
+                <label for="Pizza">
+                    <input type="checkbox" name="food" id="Pizza"> Pizza
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pick Only One sauce</legend>
+                <label for="Ketchup">
+                    <input type="radio" name="Sauce" id="Ketchup"> Ketchup
+                </label>
+                <label for="Mayonez">
+                    <input type="radio" name="Sauce" id="Mayonez"> Mayonez
+                </label>
+                <label for="Honey mustard">
+                    <input type="radio" name="Sauce" id="Honey mustard"> Honey Mustard
+                </label>
+                <label for="Cheese">
+                    <input type="radio" name="Sauce" id="Cheese"> Cheese
+                </label>
+            </fieldset> 
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="100" rows="3"></textarea>
+            </fieldset>
              
         </form>
 
